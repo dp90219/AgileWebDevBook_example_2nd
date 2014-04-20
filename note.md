@@ -5,5 +5,9 @@
 - <body class='<%= controller.controller_name %>'> 
 - <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
 
+### test
 
+- controllers
+- models
+- fixtures
 
