@@ -15,4 +15,11 @@
 
 - numebr_to_currency
 - test: assert_select
+- <%= truncate(strip_tags(product.description), length: 80) %> 
+
+## rails g scaffold cart
+
+- concern
+
+## rails g scaffold LineItem product:references cart:belongs_to
 

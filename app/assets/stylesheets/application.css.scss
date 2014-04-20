@@ -48,6 +48,14 @@
     width: 13em;
     background: #141;
 
+    .time {
+      color: #ffffff;
+      margin: auto;
+      padding: auto;
+      // height: 2em;
+      overflow: auto;
+    }
+
     ul {
       padding: 0;
       li {

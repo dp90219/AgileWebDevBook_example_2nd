@@ -20,6 +20,7 @@
         <li><a href=#>News</a></li>
         <li><a href=#>Contact</a></li>
       </ul>
+      <p class="time"><%= truncate(Time.now.to_s, length: 23) %></p>
     </div>
     <div id="main">
       <%= yield %>
