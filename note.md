@@ -11,3 +11,6 @@
 - models
 - fixtures
 
+## rails g controller store index
+
+
