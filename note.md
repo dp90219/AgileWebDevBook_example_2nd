@@ -13,4 +13,6 @@
 
 ## rails g controller store index
 
+- numebr_to_currency
+- test: assert_select
 

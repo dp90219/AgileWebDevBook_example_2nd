@@ -12,20 +12,20 @@
     <%= @page_title || "Pragmatic Bookshelf" %>
   </div>
 
-  <div id="colums">
-     <div id=side"">
-       <ul>
-         <li><a href=#>Home</a></li>
-         <li><a href=#>Questions</a></li>
-         <li><a href=#>News</a></li>
-         <li><a href=#>Contact</a></li>
-       </ul>
-     </div>
-  </div>
-<div id="main">
-<%= yield %>
-</div>
+  <div id="columns">
+    <div id="side">
+      <ul>
+        <li><a href=#>Home</a></li>
+        <li><a href=#>Questions</a></li>
+        <li><a href=#>News</a></li>
+        <li><a href=#>Contact</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <%= yield %>
+    </div>
 
+</div>
 
 </body>
 </html>
