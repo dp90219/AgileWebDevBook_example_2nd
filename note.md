@@ -31,3 +31,9 @@
 
 ## rails g scaffold order name:string address:text email:string pay_type:string
 rails g migration add_order_to_line_item order:references
+
+## rails g scaffold user name:string password:digest
+
+## rails g controller sessions new create destroy
+
+## rails g controller admin index
