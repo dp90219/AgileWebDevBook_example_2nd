@@ -23,3 +23,8 @@
 
 ## rails g scaffold LineItem product:references cart:belongs_to
 
+## rails g migration add_quantity_to_line_items quantity:integer
+
+## rails g migration combine_items_in_cart
+
+- @cart.line_items.build  vs.  LineItems.create
