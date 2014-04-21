@@ -28,3 +28,6 @@
 ## rails g migration combine_items_in_cart
 
 - @cart.line_items.build  vs.  LineItems.create
+
+## rails g scaffold order name:string address:text email:string pay_type:string
+rails g migration add_order_to_line_item order:references
